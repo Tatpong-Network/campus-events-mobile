@@ -1,6 +1,16 @@
+# 📱 Campus Events Mobile (Assignment รวมสัปดาห์ที่ 1–11)
+
+[![Expo](https://img.shields.io/badge/Expo-SDK%2052-000020?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
+[![Expo Router](https://img.shields.io/badge/Expo_Router-v4-4630EB?style=for-the-badge&logo=expo&logoColor=white)](https://docs.expo.dev/router/introduction/)
+[![React Native](https://img.shields.io/badge/React_Native-0.76-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactnative.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web-green?style=for-the-badge)](https://expo.dev/)
+
 เรียน อาจารย์ประจำวิชา Mobile Application Development
 
 เรื่อง: ส่งงาน Assignment รวบยอดสัปดาห์ที่ 1–11 (โปรเจกต์ Campus Events Mobile)
+
+
 
 กระผมนาย ทัตพงศ์ พงศ์สุวากร ได้นำเนื้อหาและ Assignment ตั้งแต่สัปดาห์ที่ 1 ถึง 11 มารวมและพัฒนาต่อยอดเป็นแอปพลิเคชันระบบเดียว (Single Codebase) ตามข้อกำหนดของรายวิชาเรียบร้อยแล้วครับ
 
