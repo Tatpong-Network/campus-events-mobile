@@ -67,7 +67,7 @@ campus-events/
 │   └── storage.ts                  # จัดการฐานข้อมูลและการบันทึกข้อมูลถาวร
 ├── app.json                        # การตั้งค่าแอป, Permissions และ Native Plugins
 └── package.json                    # รายการ Dependencies และ Scripts สำหรับรันโปรเจกต์
-
+```
 
 --------------------------------------------------
 🚀 ขั้นตอนการติดตั้งและรันโปรเจกต์ (Getting Started)
