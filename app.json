@@ -1,44 +1,18 @@
 {
   "expo": {
-    "name": "campus-events",
+    "name": "Campus Events",
     "slug": "campus-events",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
     "scheme": "campusevents",
-    "userInterfaceStyle": "automatic",
-    "ios": {
-      "icon": "./assets/expo.icon"
-    },
-    "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
-      },
-      "predictiveBackGestureEnabled": false
-    },
-    "web": {
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
-    },
     "plugins": [
       "expo-router",
       [
-        "expo-splash-screen",
-        {
-          "backgroundColor": "#208AEF",
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
-        }
+        "expo-camera",
+        { "cameraPermission": "แอปต้องการเข้าถึงกล้องเพื่อถ่ายรูปกิจกรรม" }
       ],
-      "expo-secure-store",
-      "expo-sqlite"
-    ],
-    "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
-    }
+      [
+        "expo-location",
+        { "locationWhenInUsePermission": "อนุญาตให้ Campus Events ใช้ตำแหน่งเพื่อเลือกสถานที่จัดกิจกรรม" }
+      ]
+    ]
   }
 }

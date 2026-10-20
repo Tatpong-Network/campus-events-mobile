@@ -1,56 +1,33 @@
-# Welcome to your Expo app 👋
+# 📱 Campus Events Mobile (Assignment รวมสัปดาห์ที่ 1–11)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+แอปพลิเคชันค้นหา บันทึก และลงทะเบียนกิจกรรมมหาวิทยาลัย พัฒนาด้วย **React Native + Expo Router + TypeScript** โดยรวบรวมและต่อยอดเนื้อหาการเรียนรู้ตั้งแต่สัปดาห์ที่ 1 ถึง 11 ไว้ใน Codebase เดียว
 
-## Get started
+---
 
-1. Install dependencies
+## 👤 ข้อมูลผู้จัดทำ
+- **ชื่อ-นามสกุล:** นาย ทัตพงศ์ พงศ์สุวากร
+- **รหัสนักศึกษา:** 663450039-7
+- **รายวิชา:** Mobile Application Development
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## ✨ สรุปฟังก์ชันที่ครอบคลุม (Week 1 – 11)
 
-   ```bash
-   npx expo start
-   ```
+| สัปดาห์ | หัวข้อ | สิ่งที่ถูกนำมาประยุกต์ใช้ในแอป |
+| :--- | :--- | :--- |
+| **Week 1–2** | Components, Props & State | โครงสร้าง TypeScript, หน้า Profile นักศึกษา, Reusable Component `EventCard` |
+| **Week 3** | Responsive UI & FlatList | จัดการรายการกิจกรรมด้วย `FlatList`, ออกแบบปุ่มและ Spacing รองรับหลายขนาดหน้าจอ |
+| **Week 4** | Expo Router & Navigation | Navigation แบบ File-based (Tabs: กิจกรรม, รายการโปรด, โปรไฟล์) และ Stack Dynamic Route `/events/[id]` |
+| **Week 5** | Form & State Management | บริหารจัดการ State บันทึกรายการโปรดด้วย React Context (`FavoritesProvider`) |
+| **Week 6–7** | Networking & Storage | ระบบเก็บข้อมูล Favorite และ Session แบบ Local Storage ในเครื่อง |
+| **Week 8** | Authentication & Security | ระบบ Session Management, การเข้าสู่ระบบ (Login) และออกจากระบบ (Logout) |
+| **Week 9–10** | Device APIs, Location & Maps | การแสดงผลแผนที่ (Interactive Map สำหรับ Mobile และ Fallback สำหรับ Web) |
+| **Week 11** | Notifications & Platform APIs | ระบบแจ้งเตือนกิจกรรมล่วงหน้า (Local Event Reminder) |
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 ขั้นตอนการติดตั้งและรันโปรเจกต์ (Getting Started)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+### 1. ติดตั้ง Dependencies
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install
