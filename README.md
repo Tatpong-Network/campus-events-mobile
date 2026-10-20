@@ -6,47 +6,68 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web-green?style=for-the-badge)](https://expo.dev/)
 
-เรียน อาจารย์ประจำวิชา Mobile Application Development
+แอปพลิเคชันค้นหา บันทึก และลงทะเบียนกิจกรรมมหาวิทยาลัย พัฒนาด้วย **React Native + Expo Router + TypeScript** โดยรวบรวมและต่อยอดเนื้อหาการเรียนรู้ตั้งแต่สัปดาห์ที่ 1 ถึง 11 ไว้ใน Codebase เดียว
 
-เรื่อง: ส่งงาน Assignment รวบยอดสัปดาห์ที่ 1–11 (โปรเจกต์ Campus Events Mobile)
+---
 
+## 👤 ข้อมูลผู้จัดทำ
+- **ชื่อ-นามสกุล:** นาย ทัตพงศ์ พงศ์สุวากร
+- **รหัสนักศึกษา:** 663450039-7
+- **รายวิชา:** Mobile Application Development
 
+---
 
-กระผมนาย ทัตพงศ์ พงศ์สุวากร ได้นำเนื้อหาและ Assignment ตั้งแต่สัปดาห์ที่ 1 ถึง 11 มารวมและพัฒนาต่อยอดเป็นแอปพลิเคชันระบบเดียว (Single Codebase) ตามข้อกำหนดของรายวิชาเรียบร้อยแล้วครับ
+## ✨ สรุปฟังก์ชันที่ครอบคลุม (Week 1 – 11)
 
---------------------------------------------------
-📌 ข้อมูลผู้จัดทำ
-- ชื่อ-นามสกุล: นาย ทัตพงศ์ พงศ์สุวากร
-- รหัสนักศึกษา: 663450039-7
-- รายวิชา: Mobile Application Development
-- ลิงก์ GitHub Repository: https://github.com/Tatpong-Network/campus-events-mobile
---------------------------------------------------
+| สัปดาห์ | หัวข้อ | สิ่งที่ถูกนำมาประยุกต์ใช้ในแอป |
+| :--- | :--- | :--- |
+| **Week 1–2** | Components, Props & State | โครงสร้าง TypeScript, หน้า Profile นักศึกษา, Reusable Component `EventCard` |
+| **Week 3** | Responsive UI & FlatList | จัดการรายการกิจกรรมด้วย `FlatList`, ออกแบบปุ่มและ Spacing รองรับหลายขนาดหน้าจอ |
+| **Week 4** | Expo Router & Navigation | Navigation แบบ File-based (Tabs: กิจกรรม, รายการโปรด, โปรไฟล์) และ Stack Dynamic Route `/events/[id]` |
+| **Week 5** | Form & State Management | บริหารจัดการ State บันทึกรายการโปรดด้วย React Context (`FavoritesProvider`) |
+| **Week 6–7** | Networking & Storage | ระบบเก็บข้อมูล Favorite และ Session แบบ Local Storage ในเครื่อง |
+| **Week 8** | Authentication & Security | ระบบ Session Management, การเข้าสู่ระบบ (Login) และออกจากระบบ (Logout) |
+| **Week 9–10** | Device APIs, Location & Maps | การแสดงผลแผนที่ (Interactive Map สำหรับ Mobile และ Fallback สำหรับ Web) |
+| **Week 11** | Notifications & Platform APIs | ระบบแจ้งเตือนกิจกรรมล่วงหน้า (Local Event Reminder) |
 
-🖼️ ภาพตัวอย่างหน้าจอและการทำงานของแอปพลิเคชัน
-<img width="2999" height="1611" alt="download" src="https://github.com/user-attachments/assets/65481102-38e9-4b05-8b7a-ebb0339db624" />
+---
 
---------------------------------------------------
-✨ สรุปฟังก์ชันและการประยุกต์ใช้เนื้อหาตาม Milestone (สัปดาห์ที่ 1–11):
-- Week 1–2 (UI & Core Components): โครงสร้าง TypeScript, หน้า Profile นักศึกษา, Reusable Component EventCard
-- Week 3 (Responsive UI & FlatList): จัดการรายการกิจกรรมด้วย FlatList ออกแบบปุ่มและ Spacing รองรับหลายขนาดหน้าจอ
-- Week 4 (Expo Router & Navigation): ออกแบบ File-based Routing ด้วย Stack และ Tabs (/events, /favorites, /profile) พร้อมรองรับ Dynamic Route /events/[id]
-- Week 5 (Forms & State Management): บริหารจัดการ State บันทึกรายการโปรดด้วย React Context (FavoritesProvider)
-- Week 6–7 (Networking & Storage): จำลองการโหลดข้อมูล และทำระบบบันทึกสถานะ Favorite รวมถึง Session ลงใน Local Storage ในเครื่อง
-- Week 8 (Authentication & Security): ระบบ Session Management, การเข้าสู่ระบบ (Login Flow), การออกจากระบบ (Logout) และ Protected Routes
-- Week 9–10 (Device APIs, Location & Maps): โครงสร้างรองรับสิทธิ์การเข้าถึง (Permissions), พิกัดสถานที่ และการแสดงผลแผนที่ (Interactive Map สำหรับ Mobile และ Fallback สำหรับ Web)
-- Week 11 (Notifications & Platform APIs): ระบบตอบสนองการแจ้งเตือนกิจกรรมล่วงหน้า (Local Event Reminder)
+## 🛠️ สถาปัตยกรรมระบบ (Project Architecture)
 
---------------------------------------------------
-🧪 รายงานผลการทดสอบ Clean Clone, Install และ Run (Verification Report):
-กระผมได้ทำการทดสอบจำลองในฐานะผู้ตรวจงานตามข้อกำหนด โดย Clone โปรเจกต์ลงใน Directory ใหม่ พบว่า:
-1. การ Clone: สามารถดาวน์โหลด Source Code จาก GitHub Repository ได้สมบูรณ์ ไม่มีไฟล์สูญหาย
-2. การ Install: รันคำสั่ง `npm install` ผ่านโดยไม่มี Dependency Conflict หรือ Error ใดๆ
-3. การ Run: รันคำสั่ง `npm start` / `npx expo start -c` สามารถเปิดใช้งานได้สมบูรณ์ทั้งบน Web Browser และสมาร์ตโฟนผ่าน Expo Go
-4. การทำงานของ Route & State: หน้า Login นำทางไปยังหน้า Tabs, หน้ารายละเอียดกิจกรรมแสดงผลตาม ID, และระบบบันทึกรายการโปรดทำงานสอดคล้องกับ State จริง
+โครงสร้างโฟลเดอร์ถูกจัดวางตามแนวทาง **Expo Router (File-based Routing)** และแยกชั้นการทำงานตามหลัก Separation of Concerns:
 
---------------------------------------------------
-🎯 ความพร้อมสำหรับการสาธิต (Final Demo):
-โปรเจกต์นี้ได้รับการออกแบบให้เป็นแอปพลิเคชันที่มีความต่อเนื่องในตัว (Single Application Workflow) มีข้อมูล Mock Events ครบถ้วน และพร้อมสำหรับการนำเสนอสาธิตการใช้งานจริงในวันสอบ Final ตามที่กำหนดไว้ครับ
+```text
+campus-events/
+├── app/                            # โครงสร้างเส้นทางและหน้าจอ (File-based Routing)
+│   ├── (tabs)/                     # กลุ่มหน้าจอหลักที่มีแถบเมนูด้านล่าง
+│   │   ├── _layout.tsx             # กำหนด Tabs Navigation (กิจกรรม, รายการโปรด, โปรไฟล์)
+│   │   ├── events.tsx              # หน้ารายการกิจกรรมทั้งหมด (FlatList & Responsive)
+│   │   ├── favorites.tsx           # หน้ารายการโปรดที่บันทึกไว้
+│   │   └── profile.tsx             # หน้าโปรไฟล์นักศึกษาและออกจากระบบ (Logout)
+│   ├── events/                     
+│   │   ├── [id].tsx                # หน้ารายละเอียดกิจกรรม + แผนที่ (Dynamic Route)
+│   │   └── create.tsx              # หน้าสร้างกิจกรรม (Camera & Location Picker)
+│   ├── _layout.tsx                 # Root Stack Navigation & App Providers
+│   ├── index.tsx                   # หน้าทางเข้าหลัก (Redirect ตามสถานะ Login)
+│   ├── login.tsx                   # หน้าเข้าสู่ระบบ (Authentication)
+│   └── register.tsx                # หน้าฟอร์มลงทะเบียนเข้าร่วมกิจกรรม
+├── components/                     # Reusable UI Components
+│   ├── EventCard.tsx               # การ์ดกิจกรรม (พร้อมปุ่ม Favorite & Accessibility)
+│   ├── EmptyState.tsx              # UI แสดงผลเมื่อไม่มีรายการข้อมูล
+│   └── OfflineBanner.tsx           # แถบแจ้งเตือนสถานะเมื่อออฟไลน์
+├── store/                          # State Management & Context
+│   ├── SessionProvider.tsx         # จัดการ Session ผู้ใช้ + SecureStore / LocalStorage
+│   └── FavoritesProvider.tsx       # จัดการ State รายการโปรด + Local Storage
+├── types/                          # Type Definitions (TypeScript)
+│   ├── auth.ts                     # ชนิดข้อมูลเกี่ยวกับ User & Session
+│   └── event.ts                    # ชนิดข้อมูลกิจกรรม (CampusEvent Data Model)
+├── services/                       # Network Boundary & Native APIs
+│   ├── events-api.ts               # เชื่อมต่อ REST API พร้อม Type Guard
+│   ├── notifications.ts            # การตั้งเวลาแจ้งเตือนกิจกรรม (Event Reminder)
+│   └── storage.ts                  # จัดการฐานข้อมูลและการบันทึกข้อมูลถาวร
+├── app.json                        # การตั้งค่าแอป, Permissions และ Native Plugins
+└── package.json                    # รายการ Dependencies และ Scripts สำหรับรันโปรเจกต์
+
 
 --------------------------------------------------
 🚀 ขั้นตอนการติดตั้งและรันโปรเจกต์ (Getting Started)
